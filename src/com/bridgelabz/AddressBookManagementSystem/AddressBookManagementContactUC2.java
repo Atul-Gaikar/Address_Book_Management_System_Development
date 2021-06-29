@@ -2,14 +2,14 @@ package com.bridgelabz.AddressBookManagementSystem;
 
 import java.util.Scanner;
 
-public class AddressBookManagementUC2 {
+public class AddressBookManagementContactUC2 {
 
-	AddressBookManagementUC2 contact;
+	AddressBookManagementContactUC2 contact;
 	Scanner sc = new Scanner(System.in);
 	private String firstName;
 
 	public void add() {
-		contact = new AddressBookManagementUC2();
+		contact = new AddressBookManagementContactUC2();
 		System.out.println("Please Enter Following data....!");
 		System.out.println("Enter First Name: ");
 		String firstName = sc.nextLine();

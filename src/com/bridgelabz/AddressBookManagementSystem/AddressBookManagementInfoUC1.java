@@ -1,6 +1,6 @@
 package com.bridgelabz.AddressBookManagementSystem;
 
-public class AddressBookManagementUC1 {
+public class AddressBookManagementInfoUC1 {
 	String firstName;
 	String lastName;
 	String address;
